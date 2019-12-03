@@ -18,7 +18,7 @@
 						<dict>
 							<key>Name</key>
 							<string>Lilu.kext</string>
-							<key>Essential</key>
+							<key>Clover</key>
 							<true/>
 						</dict>
 					</array>
@@ -36,13 +36,13 @@
 						<dict>
 							<key>Name</key>
 							<string>VirtualSMC.kext</string>
-							<key>Essential</key>
+							<key>Clover</key>
 							<true/>
 						</dict>
 						<dict>
 							<key>Name</key>
 							<string>SMCBatteryManager.kext</string>
-							<key>Essential</key>
+							<key>Clover</key>
 							<true/>
 						</dict>
 					</array>
@@ -60,7 +60,7 @@
 						<dict>
 							<key>Name</key>
 							<string>WhateverGreen.kext</string>
-							<key>Essential</key>
+							<key>Clover</key>
 							<true/>
 						</dict>
 					</array>
@@ -78,7 +78,43 @@
 						<dict>
 							<key>Name</key>
 							<string>AirportBrcmFixup.kext</string>
-							<key>Essential</key>
+							<key>Clover</key>
+							<true/>
+						</dict>
+					</array>
+				</dict>
+			</dict>
+			<dict>
+				<key>Author</key>
+				<string>acidanthera</string>
+				<key>Repo</key>
+				<string>BrcmPatchRAM</string>
+				<key>Installations</key>
+				<dict>
+					<key>Kexts</key>
+					<array>
+						<dict>
+							<key>Name</key>
+							<string>BrcmPatchRAM3.kext</string>
+							<key>Clover</key>
+							<true/>
+						</dict>
+						<dict>
+							<key>Name</key>
+							<string>BrcmNonPatchRAM2.kext</string>
+							<key>Clover</key>
+							<true/>
+						</dict>
+						<dict>
+							<key>Name</key>
+							<string>BrcmFirmwareData.kext</string>
+							<key>Clover</key>
+							<true/>
+						</dict>
+						<dict>
+							<key>Name</key>
+							<string>BrcmBluetoothInjector.kext</string>
+							<key>Clover</key>
 							<true/>
 						</dict>
 					</array>
@@ -96,6 +132,44 @@
 						<dict>
 							<key>Name</key>
 							<string>AppleALC.kext</string>
+							<key>Clover</key>
+							<true/>
+						</dict>
+					</array>
+				</dict>
+			</dict>
+			<dict>
+				<key>Author</key>
+				<string>acidanthera</string>
+				<key>Repo</key>
+				<string>VoodooPS2</string>
+				<key>Installations</key>
+				<dict>
+					<key>Kexts</key>
+					<array>
+						<dict>
+							<key>Name</key>
+							<string>VoodooPS2Controller.kext</string>
+							<key>Clover</key>
+							<true/>
+						</dict>
+					</array>
+				</dict>
+			</dict>
+			<dict>
+				<key>Author</key>
+				<string>Mieze</string>
+				<key>Repo</key>
+				<string>RTL8111_driver_for_OS_X</string>
+				<key>Installations</key>
+				<dict>
+					<key>Kexts</key>
+					<array>
+						<dict>
+							<key>Name</key>
+							<string>RealtekRTL8111.kext</string>
+							<key>Clover</key>
+							<true/>
 						</dict>
 					</array>
 				</dict>
@@ -123,66 +197,6 @@
 				<key>Author</key>
 				<string>RehabMan</string>
 				<key>Repo</key>
-				<string>os-x-voodoo-ps2-controller</string>
-				<key>Installations</key>
-				<dict>
-					<key>Kexts</key>
-					<array>
-						<dict>
-							<key>Name</key>
-							<string>VoodooPS2Controller.kext</string>
-							<key>Essential</key>
-							<true/>
-						</dict>
-					</array>
-				</dict>
-			</dict>
-			<dict>
-				<key>Author</key>
-				<string>RehabMan</string>
-				<key>Repo</key>
-				<string>os-x-realtek-network</string>
-				<key>Installations</key>
-				<dict>
-					<key>Kexts</key>
-					<array>
-						<dict>
-							<key>Name</key>
-							<string>RealtekRTL8111.kext</string>
-							<key>Essential</key>
-							<true/>
-						</dict>
-					</array>
-				</dict>
-			</dict>
-			<dict>
-				<key>Author</key>
-				<string>RehabMan</string>
-				<key>Repo</key>
-				<string>os-x-brcmpatchram</string>
-				<key>Installations</key>
-				<dict>
-					<key>Kexts</key>
-					<array>
-						<dict>
-							<key>Name</key>
-							<string>BrcmPatchRAM2.kext</string>
-						</dict>
-						<dict>
-							<key>Name</key>
-							<string>BrcmNonPatchRAM2.kext</string>
-						</dict>
-						<dict>
-							<key>Name</key>
-							<string>BrcmFirmwareRepo.kext</string>
-						</dict>
-					</array>
-				</dict>
-			</dict>
-			<dict>
-				<key>Author</key>
-				<string>RehabMan</string>
-				<key>Repo</key>
 				<string>os-x-eapd-codec-commander</string>
 				<key>Installations</key>
 				<dict>
@@ -191,6 +205,8 @@
 						<dict>
 							<key>Name</key>
 							<string>CodecCommander.kext</string>
+							<key>Clover</key>
+							<true/>
 						</dict>
 					</array>
 				</dict>
