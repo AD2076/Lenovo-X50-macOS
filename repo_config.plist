@@ -140,6 +140,24 @@
 			</dict>
 			<dict>
 				<key>Author</key>
+				<string>kprinssu</string>
+				<key>Repo</key>
+				<string>VoodooInput</string>
+				<key>Installations</key>
+				<dict>
+					<key>Kexts</key>
+					<array>
+						<dict>
+							<key>Name</key>
+							<string>VoodooInput.kext</string>
+							<key>Clover</key>
+							<true/>
+						</dict>
+					</array>
+				</dict>
+			</dict>
+			<dict>
+				<key>Author</key>
 				<string>acidanthera</string>
 				<key>Repo</key>
 				<string>VoodooPS2</string>
