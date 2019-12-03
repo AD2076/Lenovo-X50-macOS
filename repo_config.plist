@@ -253,6 +253,8 @@
 		<array>
 			<string>AppleHDA_CX20751.kext</string>
 			<string>AppleBacklightFixup.kext</string>
+			<string>BrcmPatchRAM2.kext</string>
+			<string>BrcmFirmwareRepo.kext</string>
 		</array>
 	</dict>
 </dict>
