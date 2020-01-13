@@ -223,7 +223,7 @@
 						<dict>
 							<key>Name</key>
 							<string>VoodooPS2Controller.kext</string>
-							<key>Essential</key>
+							<key>Clover</key>
 							<true/>
 						</dict>
 					</array>
