@@ -138,7 +138,7 @@
 					</array>
 				</dict>
 			</dict>
-			<dict>
+			<!--dict>
 				<key>Author</key>
 				<string>acidanthera</string>
 				<key>Repo</key>
@@ -173,7 +173,7 @@
 						</dict>
 					</array>
 				</dict>
-			</dict>
+			</dict-->
 			<dict>
 				<key>Author</key>
 				<string>Mieze</string>
